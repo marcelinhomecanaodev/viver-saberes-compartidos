@@ -78,7 +78,7 @@ export const mockMentors: Mentor[] = [
   {
     id: "2",
     name: "Carlos Mendes",
-    photoUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+    photoUrl: "https://images.unsplash.com/photo-1559963064-0b638844733a?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
     bio: "Aposentado após 35 anos como chef de cozinha. Especializado em culinária brasileira tradicional e sustentável.",
     email: "carlos@example.com",
     skills: [{ id: "1", name: "Culinária" }],
@@ -102,7 +102,7 @@ export const mockMentors: Mentor[] = [
   {
     id: "3",
     name: "Ana Ribeiro",
-    photoUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+    photoUrl: "https://images.unsplash.com/photo-1566616213894-2d4e1baee5d8?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
     bio: "Jardineira aposentada com mais de 20 anos de experiência em cultivo orgânico e plantas medicinais.",
     email: "ana@example.com",
     skills: [{ id: "3", name: "Jardinagem" }],
@@ -126,7 +126,7 @@ export const mockMentors: Mentor[] = [
   {
     id: "4",
     name: "João Pereira",
-    photoUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+    photoUrl: "https://images.unsplash.com/photo-1505521237762-c3e548b8101b?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
     bio: "Marceneiro aposentado com 40 anos de experiência em móveis feitos à mão e restauração de peças antigas.",
     email: "joao@example.com",
     skills: [{ id: "4", name: "Marcenaria" }],
@@ -150,7 +150,7 @@ export const mockMentors: Mentor[] = [
   {
     id: "5",
     name: "Maria Conceição",
-    photoUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+    photoUrl: "https://images.unsplash.com/photo-1581579438747-104c53d755df?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
     bio: "Artesã há mais de 30 anos, especializada em trabalhos com argila, cerâmica e materiais reciclados.",
     email: "maria@example.com",
     skills: [{ id: "5", name: "Artesanato" }],
