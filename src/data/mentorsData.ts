@@ -78,7 +78,7 @@ export const mockMentors: Mentor[] = [
   {
     id: "2",
     name: "Carlos Mendes",
-    photoUrl: "https://images.unsplash.com/photo-1559963064-0b638844733a?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+    photoUrl: "/lovable-uploads/727dd1b1-7f4b-4b8d-a2be-39ecf1cd0557.png",
     bio: "Aposentado após 35 anos como chef de cozinha. Especializado em culinária brasileira tradicional e sustentável.",
     email: "carlos@example.com",
     skills: [{ id: "1", name: "Culinária" }],
@@ -102,7 +102,7 @@ export const mockMentors: Mentor[] = [
   {
     id: "3",
     name: "Ana Ribeiro",
-    photoUrl: "https://images.unsplash.com/photo-1566616213894-2d4e1baee5d8?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+    photoUrl: "/lovable-uploads/a81334ac-4bf7-4b85-a4bf-71d85f9dea79.png",
     bio: "Jardineira aposentada com mais de 20 anos de experiência em cultivo orgânico e plantas medicinais.",
     email: "ana@example.com",
     skills: [{ id: "3", name: "Jardinagem" }],
@@ -126,7 +126,7 @@ export const mockMentors: Mentor[] = [
   {
     id: "4",
     name: "João Pereira",
-    photoUrl: "https://images.unsplash.com/photo-1505521237762-c3e548b8101b?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+    photoUrl: "/lovable-uploads/7bbd333b-8831-4e25-8069-ce6060abc8d3.png",
     bio: "Marceneiro aposentado com 40 anos de experiência em móveis feitos à mão e restauração de peças antigas.",
     email: "joao@example.com",
     skills: [{ id: "4", name: "Marcenaria" }],
@@ -150,7 +150,7 @@ export const mockMentors: Mentor[] = [
   {
     id: "5",
     name: "Maria Conceição",
-    photoUrl: "https://images.unsplash.com/photo-1581579438747-104c53d755df?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+    photoUrl: "/lovable-uploads/61c7962e-7407-494b-8cda-2f606ec0bc48.png",
     bio: "Artesã há mais de 30 anos, especializada em trabalhos com argila, cerâmica e materiais reciclados.",
     email: "maria@example.com",
     skills: [{ id: "5", name: "Artesanato" }],
