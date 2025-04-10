@@ -39,14 +39,16 @@ export const skills: Skill[] = [
   { id: "5", name: "Artesanato" },
   { id: "6", name: "Pintura" },
   { id: "7", name: "Crochê" },
-  { id: "8", name: "Fotografia" }
+  { id: "8", name: "Fotografia" },
+  { id: "9", name: "Engenharia" },
+  { id: "10", name: "Desenho Técnico" }
 ];
 
 export const mockMentors: Mentor[] = [
   {
     id: "1",
     name: "Doroteia Silva",
-    photoUrl: "/lovable-uploads/5cc21906-e3d5-4796-9da4-1ae84e78820d.png",
+    photoUrl: "/lovable-uploads/3128c986-244a-424b-8dc7-4c0423aec0a2.png",
     bio: "Tenho mais de 40 anos de experiência em costura. Adoro ensinar e passar o meu conhecimento adiante.",
     email: "doroteia@example.com",
     skills: [{ id: "2", name: "Costura" }],
@@ -170,5 +172,40 @@ export const mockMentors: Mentor[] = [
       { day: "Sexta", startTime: "14:00", endTime: "16:00" }
     ],
     averageRating: 4.6
+  },
+  {
+    id: "6",
+    name: "Hudson Luiz Pissini",
+    photoUrl: "/lovable-uploads/07b5c5fe-0b62-4354-987f-4fe4de9bf407.png",
+    bio: "Professor com mais de 20 anos de experiência em Engenharia Mecânica e Processos de Fabricação. Graduado em Tecnologia em Processos de Produção pela Faculdade de Tecnologia de Sorocaba e em Engenharia Industrial Mecânica pela Universidade Metodista de Piracicaba, com Licenciatura em Pedagogia e especialização em Didática do Ensino Superior. Atualmente leciona Desenho Técnico Mecânico, Metrologia, Elementos de Máquinas e Automação Pneumática e Hidráulica.",
+    email: "hudson@example.com",
+    skills: [
+      { id: "9", name: "Engenharia" },
+      { id: "10", name: "Desenho Técnico" }
+    ],
+    classes: [
+      {
+        id: "601",
+        mentorId: "6",
+        title: "Introdução ao Desenho Técnico",
+        description: "Aprenda os fundamentos do desenho técnico mecânico e como interpretar projetos de engenharia.",
+        pricePerHour: 50,
+        skill: { id: "10", name: "Desenho Técnico" }
+      },
+      {
+        id: "602",
+        mentorId: "6",
+        title: "Princípios de Automação Pneumática",
+        description: "Aula prática sobre os princípios básicos da automação pneumática industrial e suas aplicações.",
+        pricePerHour: 60,
+        skill: { id: "9", name: "Engenharia" }
+      }
+    ],
+    availableTimes: [
+      { day: "Segunda", startTime: "18:00", endTime: "21:00" },
+      { day: "Quarta", startTime: "18:00", endTime: "21:00" },
+      { day: "Sábado", startTime: "09:00", endTime: "12:00" }
+    ],
+    averageRating: 4.9
   }
 ];
